@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>中测智绘</title>
+<link href="css/bootstrap.css" rel='stylesheet' type='text/css' />
+<!-- jQuery (Bootstrap's JavaScript plugins) -->
+<script src="js/jquery.min.js"></script>
+<!-- Custom Theme files -->
+<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+<link rel="stylesheet" href="css/lightbox.css">
+<!-- Custom Theme files -->
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="中测智绘科技有限，专注于三维重建，用相机重构我们的世界" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!--webfont-->
+<!--animated-css-->
+<link href="css/animate.css" rel="stylesheet" type="text/css" media="all">
+<script src="js/wow.min.js"></script>
+<script>
+ new WOW().init();
+</script>
+<!--/animated-css-->
+<link href='http://fonts.useso.com/css?family=Source+Sans+Pro:200,300,400,600,700,900,300italic,400italic,600italic,700italic' rel='stylesheet' type='text/css'>
+<!---- start-smoth-scrolling---->
+		<script type="text/javascript" src="js/move-top.js"></script>
+		<script type="text/javascript" src="js/easing.js"></script>
+		<script type="text/javascript">
+			jQuery(document).ready(function($) {
+				$(".scroll").click(function(event){		
+					event.preventDefault();
+					$('html,body').animate({scrollTop:$(this.hash).offset().top},900);
+				});
+			});
+		</script>
+<!---- start-smoth-scrolling---->
+
+</head>
+<body>
+<!---->
+<div class="banner">
+	 <div class="container">
+		 <div class="header">
+			 <div class="logo wow fadeInLeft" data-wow-delay="0.5s">
+			 <a href="index.html"><img src="images/logo.png" alt=""/></a>
+			 </div>
+			 <div class="top-menu">
+			 <span class="menu"></span>
+				 <ul>
+				 <li class="active"><a href="index.html">首页</a></li>
+				 <li><a class="scroll" href="#features">解决方案</a></li>
+				 <li><a class="scroll" href="#demos">案例展示</a></li>
+				 <li><a class="scroll" href="#team">团队介绍</a></li>
+				 <!-- <li><a class="scroll" href="#pricing">产品特性</a></li> -->
+				 <li><a class="scroll" href="#contact">联系我们</a></li>			 
+				 </ul>
+			 </div>
+			  <!-- script-for-menu -->
+		 <script>
+				$("span.menu").click(function(){
+					$(".top-menu ul").slideToggle("slow" , function(){
+					});
+				});
+		 </script>
+		 <!-- script-for-menu -->	  	
+
+			 <div class="clearfix"></div>
+		 </div>
+		 <div class="banner-info">
+			 <div class="col-md-6 banner-text wow fadeInRight" data-wow-delay="0.5s">
+				 <h3>Technology-Driven</h3>
+				 <h1>真实世界虚拟再现</h1>
+				 <p>自主知识产权的全自动三维建模产品化工具，基于计算机视觉的领先技术</p>
+				 <div class="home-list">
+					 <!-- <ul> -->
+						<!--  <li>一二三四</li>
+						 <li>一二三四一二三四</li>
+						 <li>一二三四一二三四</li>
+						 <li>一二三四一二三四一二三四</li> -->
+					 <!-- </ul> -->
+				 </div>
+			 </div>
+			 <div class="col-md-6 banner-pic wow fadeInLeft" data-wow-delay="0.5s">
+				 <img src="images/phn.png" alt=""/>
+			 </div>
+			 <div class="clearfix"></div>
+		 </div>
+	 </div>
+</div>
+<!---->
+<div id="features" class="features">
+	 <div class="container">
+		 <div class="features-head">
+			 <h4>DIG INTO IMAGE</h4>
+			 <h3>解决方案</h3>			 
+		 </div>
+		 <div class="features-section">
+			 <div class="col-md-4 feature-grid">
+				 <img class="wow bounceIn" data-wow-delay="0.4s" src="images/icon1.png" alt=""/>
+				 <h3>桌面端</h3>
+				 <p>快速自动影像精细化建模，跨平台海量数据高速处理</p>
+			 </div>
+			 <div class="col-md-4 feature-grid">
+				 <img class="wow bounceIn" data-wow-delay="0.4s" src="images/icon2.png" alt=""/>
+				 <h3>需求定制</h3>
+				 <p>支持软件快速定制化服务，为行业特定需求提供专业技术支持</p>
+			 </div>
+			 <div class="col-md-4 feature-grid">
+				 <img class="wow bounceIn" data-wow-delay="0.4s" src="images/icon4.png" alt=""/>
+				 <h3>移动端</h3>
+				 <p>手机快速建模浏览，随时随地重构真实世界</p>
+			 </div>
+			 <div class="clearfix"></div>
+		 </div>
+	 </div>
+</div>
+<!---->
+<div id="about" class="about">
+	 <div class="container">
+		 <div class="about-top">
+			 <div class="col-md-6 about-device wow fadeInLeft" data-wow-delay="0.5s">
+				 <img src="images/phn2.png" alt=""/>
+			 </div>
+			 <div class="col-md-6 about-device-info wow fadeInRight" data-wow-delay="0.5s">
+				 <div class="device-text">
+					 <h4>DIP INTO THE DETAILS</h4>
+					 <h3>快速、全自动</h3>					 
+					 <p> 给定影像目录,即可全自动的将目录中的影像转换为带有纹理的三维模型。处理对象囊括从卫星影像,到普通手机照片等各种数据来源，主要优势：</p>
+				 </div>
+				 <div class="about-list">
+					 <ul>
+						 <li><a href="#"><span class="abt1"></span>开创性的并行空三处理技术</a></li>
+						 <li><a href="#"><span class="abt4"></span>模板化的高效GPU并行平差手段</a></li>
+						 <li><a href="#"><span class="abt2"></span>高兼容性的影像数据匹配策略</a></li>
+						 <li><a href="#"><span class="abt3"></span>高效的海量数据大型精细场景构建技术</a></li>
+					 </ul>
+				 </div>
+			 </div>
+			 <div class="clearfix"></div>
+		 </div>		
+	 </div>
+</div>
+<div class="about-bottom">
+	 <div class="container">
+		 <div class="col-md-6 about-customize wow fadeInRight" data-wow-delay="0.4s">
+			 <div class="device-text-bottom">
+					<h4>DIP INTO THE DETAILS</h4>
+					<h3>全面、定制化</h3>						
+					<p>完整的解决方案，满足普通用户快速上手处理数据的需求，模块化的软件架构，满足用户的行业需求，轻松进行软件定制。</p>
+			 </div>				 
+		 </div>
+		 <div class="col-md-6 about-device-bottom wow fadeInLeft" data-wow-delay="0.4s">
+				<img src="images/phn31.png" alt=""/>
+		 </div>
+		 <div class="clearfix"></div>
+	 </div>
+</div>
+<!---->
+  <script src="js/responsiveslides.min.js"></script>
+  <script>
+    // You can also use "$(window).load(function() {"
+    $(function () {
+      $("#slider2").responsiveSlides({
+        auto: true,
+        pager: true,
+        speed: 300,
+        namespace: "callbacks",
+      });
+    });
+  </script>
+<!---->
+<!-- gallery -->
+<section id="demos" class="pricing" >
+	<div class="container">
+			<div class="pricing-text"
+			<h4>SHOW CASE</h4>
+			<h3>案例展示</h3>
+			</div>
+			<div class="gallery-grids">				
+				<div class="col-md-4 port-grids view view-tenth">
+					<a class="example-image-link" href="images/kong3.jpg" data-lightbox="example-set" data-title="">
+						<img src="images/kong3.jpg" class="img-responsive" alt=""/>
+						<div class="mask">
+							<p>在手中重绘世界</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 port-grids view view-tenth">
+					<a class="example-image-link" href="images/kong3f.jpg" data-lightbox="example-set" data-title="">
+						<img src="images/kong3f.jpg" class="img-responsive" alt=""/>
+						<div class="mask">
+							<p>在手中重绘世界</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 port-grids view view-tenth">
+					<a class="example-image-link" href="images/wuhan_mosaic2.png" data-lightbox="example-set" data-title="">
+						<img src="images/wuhan_mosaic2.png" class="img-responsive" alt=""/>
+						<div class="mask">
+							<p>在手中重绘世界</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 port-grids view view-tenth">
+					<a class="example-image-link" href="images/g4.jpg" data-lightbox="example-set" data-title="">
+						<img src="images/g4.jpg" class="img-responsive" alt=""/>
+						<div class="mask">
+							<p>在手中重绘世界</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 port-grids view view-tenth">
+					<a class="example-image-link" href="images/g5.jpg" data-lightbox="example-set" data-title="">
+						<img src="images/g5.jpg" class="img-responsive" alt=""/>
+						<div class="mask">
+							<p>在手中重绘世界</p>
+						</div>
+					</a>
+				</div>
+				<div class="col-md-4 port-grids view view-tenth">
+					<a class="example-image-link" href="images/g6.jpg" data-lightbox="example-set" data-title="">
+						<img src="images/g6.jpg" class="img-responsive" alt=""/>
+						<div class="mask">
+							<p>在手中重绘世界</p>
+						</div>
+					</a>
+				</div>
+				<script src="js/lightbox-plus-jquery.min.js"> </script>
+			</div>				
+		</div>
+
+</section>
+<!-- gallery -->
+
+<!-- team -->
+<div id="team" class="aboutus">
+    <div class="container">
+    	<div class="aboutus-text">
+    		<h4>ABOUT US</h4>
+			<h3>关于我们</h3>
+		</div>
+        <div class="row">
+        	<div class="col-lg-6 col-lg-offset-3 aboutus-text">
+        	<h5 class="text-center">&nbsp;&nbsp;&nbsp;&nbsp;我们的团队由多年工作在一线的科研工作者和软件开发工程师组成，拥有强大的算法设计能力，高效的软件研发能力，以及对前沿科技高度的敏感性。我们因同一个梦想聚集在一起，致力于完成世界上最优秀的影像建模系统，并愿意为此付出全部精力。</h5>
+        </div> 
+        </div>
+    </div>
+<!-- </section> -->
+	<div class="teammember">
+		<div class="container">
+			<h3 class="title text-center">创始团队</h3>
+			<div class="team-grids">
+				<section class="main">
+					<ul class="ch-grid">
+						<li>
+							<div class="ch-item ch-img-1">
+								<div class="ch-info">
+									<h3>朱俊锋</h3>
+									<p>创始人</p>
+									<p>武汉大学博士，拥有3项发明专利，2项省部级科技进步奖，6篇SCI/EI学术论文,多年摄影测量和计算机视觉领域经验</p>
+									<!-- <div class="footer-bottom">
+										<a href="#"></a>
+										<a href="#"></a>
+										<a href="#"></a>
+									</div> -->
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="ch-item ch-img-2">
+								<div class="ch-info">
+									<h3>熊小东</h3>
+									<p>联合创始人</p>
+									<p>武汉大学博士，拥有5项发明专利，10篇SCI/EI学术论文，7年摄影测量和计算机视觉领域经验</p>
+									<!-- <div class="footer-bottom">
+										<a href="#"></a>
+										<a href="#"></a>
+										<a href="#"></a>
+									</div> -->
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="ch-item ch-img-3">
+								<div class="ch-info">
+									<h3>郑茂腾</h3>
+									<p>联合创始人</p>
+									<p>武汉大学博士，拥有4项专利，12篇SCI/EI学术论文，7年摄影测量和计算机视觉领域经验</p>
+									<div class="footer-bottom">
+										<a href="#"></a>
+										<a href="#"></a>
+										<a href="#"></a>
+									</div>
+								</div>
+							</div>
+						</li>
+						<!-- <li>
+							<div class="ch-item ch-img-4">
+								<div class="ch-info">
+									<h3>Designer</h3>
+									<p>by Stellawil vari</p>
+									<div class="footer-bottom">
+										<a href="#"></a>
+										<a href="#"></a>
+										<a href="#"></a>
+									</div>
+								</div>
+							</div>
+						</li> -->
+					</ul>
+				</section>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- team -->
+<div id="contact" class="contact">
+	 <div class="container">
+		 <div class="contact-text">
+			<h4>STAY IN TOUCH</h4>
+			<h3>联系我们</h3>			
+		 </div>
+		 <div class="row">
+			 <div class="col-md-4 text-center wow bounceIn" data-wow-delay="0.4s">
+				 <div class="icon1"></div>
+				 <p>Phone: (86) 123456</p>
+			 </div>
+			 <div class="col-md-4  text-center wow bounceIn" data-wow-delay="0.4s">
+				 <div class="icon2"></div>
+				 <p>北京市丰台区国投财富广场2号楼505室</p>
+				 <!-- <p></p> -->
+				 <!-- <p>北京</p> -->
+			 </div>
+			 <div class="col-md-4 contact-grid text-center wow bounceIn" data-wow-delay="0.4s">
+				 <div class="icon3"></div>
+				 <a href="mailto:example.com">contact@smartmappingtek.com</a>
+			 </div>
+			 <div class="clearfix"></div>
+		 </div>
+		 <div class="col-md-8  contact-grid">
+					<!-- <h3 class="contact-grid">联系我们</h3> -->
+					<!-- <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum </p> -->
+					<form>
+						<input type="text" value="名字" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+						<input type="text" class="input-mdl" value="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+						<input type="text" value="Telephone" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Telephone';}" required="">
+						<textarea type="text"  onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">留言...</textarea>
+						<input type="submit" value="提交信息" >
+					</form>
+				</div> 
+	 </div>
+</div>
+<!---->
+<div class="footer text-center">
+	 <div class="container">
+		<!--  <div class="social">			 
+			 <a href="#"><span class="behance"></span></a>
+			 <a href="#"><span class="dribble"></span></a>
+			 <a href="#"><span class="twitter"></span></a>
+			 <a href="#"><span class="facebook"></span></a>
+			 <a href="#"><span class="linkedin"></span></a>
+		 </div> -->
+		 <p class="wow bounceIn" data-wow-delay="0.4s">Copyright &copy; 2016. 中测智绘 All rights reserved.</p>
+	 </div>
+</div>
+<!---->
+<script type="text/javascript">
+		$(document).ready(function() {
+				
+				// var defaults = {
+				// containerID: 'toTop', // fading element id
+				// containerHoverID: 'toTopHover', // fading element hover id
+				// scrollSpeed: 1200,
+				// easingType: 'linear' 
+				// };
+				
+		$().UItoTop({ easingType: 'easeOutQuart' });
+});
+</script>
+<a href="#to-top" id="toTop" style="display: block;"> <span id="toTopHover" style="opacity: 1;"> </span></a>
+<!---->
+
+ </body>
+ </html>
